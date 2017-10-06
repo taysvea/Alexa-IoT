@@ -9,7 +9,7 @@ import json
 import RPi.GPIO as GPIO
 
 def main():
-    mqttc = mqtt.Client(client_id="RPi")
+    mqttc = mqtt.Client(client_id="a2j3xyl40yylce.iot.us-east-1.amazonaws.com")
 
     mqttc.on_connect = on_connect
     mqttc.on_message = on_message
